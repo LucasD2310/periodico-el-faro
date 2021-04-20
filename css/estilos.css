@@ -142,7 +142,8 @@ nav li a:hover{
 }
 
 video{
-    height: 200px;
+    height: auto;
+    width: 80%;
     margin-top: 10px;
 }
 
@@ -242,7 +243,7 @@ body{
 
     nav li a{
         padding: 3px 10px;
-        font-size: 20px;
+        font-size: 18px;
         margin: auto;
     }
 
