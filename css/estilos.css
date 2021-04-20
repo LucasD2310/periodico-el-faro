@@ -56,7 +56,6 @@ footer{
     height: 80px;
     background-color:  #c9d2d0;
     padding: 20px 0 0 0;
-    color: #31231e;
 }
 
 .logo{
@@ -244,7 +243,20 @@ body{
     nav li a{
         padding: 3px 10px;
         font-size: 20px;
-        margin: 10px;
+        margin: auto;
+    }
+
+    .pie{
+        text-align: match-parent;
+        font-size: 15px;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: 80px;
+        background-color:  #c9d2d0;
+        padding: 0 0 5px 0;
     }
 
 }
