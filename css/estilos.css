@@ -178,33 +178,6 @@ body{
     }
 }
 
-/*@media screen and (max-width: 720px){
-    article{
-        width: 100%;
-    }
-
-    .main{
-        display: grid;
-    }
-
-    .logo{
-        width: 35%;
-        height: auto;
-        float: left;
-    }
-
-    .titulo{
-        width: 30%;
-        height: auto;
-        font-family: 'Antonio';
-        float: left;
-    }
-
-    .t2{
-        display: none;
-    }
-}*/
-
 @media screen and (max-width: 1050px){
     h1{
         width: 100%;
@@ -258,6 +231,68 @@ body{
         height: 80px;
         background-color:  #c9d2d0;
         padding: 0 0 5px 0;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    article{
+        width: 90%;
+        margin: auto;
+    }
+
+    .main{
+        display: grid;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .titulo{
+        width: 90%;
+        text-align: center;
+        height: auto;
+        font-family: 'Antonio';
+        float: left;
+    }
+
+    nav ul{
+        width: 100%;
+        list-style: none;
+    }
+
+    nav li a{
+        padding: 3px 10px;
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .pie{
+        text-align: match-parent;
+        font-size: 12px;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: 80px;
+        background-color:  #c9d2d0;
+        padding: 0 0 5px 0;
+    }
+
+    video{
+        height: auto;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    h1{
+        width: 100%;
+        text-align:center;
+        font-family: 'Playfair Display';
+        font-size: x-large;
+        padding: 10px 0 10px 0;
     }
 
 }
