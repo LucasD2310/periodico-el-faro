@@ -271,7 +271,7 @@ body{
     nav ul{
         width: 100%;
         list-style: none;
-        display: inline-flex;
+        display: inline-grid;
     }
 
     nav li a{
