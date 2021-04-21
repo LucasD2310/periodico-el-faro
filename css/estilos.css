@@ -257,16 +257,15 @@ body{
     }
 
     .logo{
-        /*display: none;*/
-        width: 10%;
+        width: 8%;
     }
 
     .titulo{
-        width: 90%;
+        width: 92%;
         text-align: right;
         height: auto;
-        font-family: 'Antonio';
-        float: left;
+        /*font-family: 'Antonio';
+        float: left;*/
     }
 
     nav ul{
@@ -275,8 +274,9 @@ body{
     }
 
     nav li a{
-        padding: 3px 10px;
-        font-size: 15px;
+        /*padding: 3px 10px;*/
+        padding: 0 0 10px 0;
+        font-size: 13px;
         margin: auto;
     }
 
@@ -301,7 +301,7 @@ body{
 
     h1{
         width: 100%;
-        text-align:center;
+        text-align: center;
         font-family: 'Playfair Display';
         font-size: x-large;
         padding: 10px 0 10px 0;
