@@ -271,10 +271,12 @@ body{
     nav ul{
         width: 100%;
         list-style: none;
+        display: flex;
     }
 
     nav li a{
         /*padding: 3px 10px;*/
+        width: 100%;
         padding: 0 0 10px 0;
         font-size: 13px;
         margin: auto;
@@ -301,10 +303,10 @@ body{
 
     h1{
         width: 100%;
-        text-align: center;
+        text-align: justify;
         font-family: 'Playfair Display';
         font-size: x-large;
-        padding: 10px 0 10px 0;
+        padding: 10px 10px 10px 10px;
     }
 
 }
