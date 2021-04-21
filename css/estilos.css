@@ -212,7 +212,7 @@ body{
     }
 
     .titulo{
-        width: 100%;
+        width: 90%;
         text-align: center;
         height: auto;
         font-family: 'Antonio';
@@ -256,12 +256,13 @@ body{
     }
 
     .logo{
-        display: none;
+        /*display: none;*/
+        width: 10%;
     }
 
     .titulo{
         width: 90%;
-        text-align: center;
+        text-align: right;
         height: auto;
         font-family: 'Antonio';
         float: left;
