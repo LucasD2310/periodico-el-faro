@@ -129,16 +129,26 @@ nav li a:hover{
 .titulo-noticia{
     font-style: bold;
     font-size: 20px;
+    text-align: justify;
 }
 
 .categoria-noticia{
     font-style: italic;
-    font-size: 13px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .texto-noticia{
     font-style: normal;
     font-size: 13px;
+    text-align: justify;
+}
+
+.image{
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-right: 5px;
 }
 
 video{
