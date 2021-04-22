@@ -177,8 +177,6 @@ body{
     min-height: 100vh;
 }
 
-/* FECHA */
-
 #box {
     font-family: 'Antonio';
     font-weight: 700;
@@ -209,13 +207,11 @@ span.hm-time, span.s-time {
     border-radius: 3px;
 }
 
-/* Aquí se cambia el color de fondo de las horas y los minutos */
 span.hm-time {
     background: #24AADD;
     color: #FFF;
 }
 
-/* Aquí se cambia el color de fondo de los segundos */
 span.s-time {
     background: #E5E5E5;
 }
@@ -223,7 +219,6 @@ span.s-time {
 span.f-time {
     font-size: 13px;
 }
-/* fin fecha */
 
 
 @media screen and (max-width: 1000px){
@@ -312,13 +307,13 @@ span.f-time {
     }
 
     .titulo{
-        width: 70%;
+        width: 60%;
         text-align: left;
         height: auto;
     }
 
     #box{
-        width: 30%;
+        width: 40%;
     }
 
     nav li a{
