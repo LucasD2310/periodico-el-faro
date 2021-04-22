@@ -54,10 +54,14 @@ header{
 }
 
 footer{
+    text-align: center;
     width: 100%;
-    height: 80px;
+    height: 50px;
+    color: #31231e;
     background-color:  #c9d2d0;
-    padding: 20px 0 0 0;
+    font-family: 'Antonio';
+    padding: 0px 0 0 0;
+    margin-top: 10px;
 }
 
 .logo{
@@ -71,14 +75,6 @@ footer{
     height: 70px;
     font-family: 'Antonio';
     float: left;
-}
-
-.pie{
-    width: 20%;
-    height: 20px;
-    color: #31231e;
-    font-family: 'Antonio';
-    float: right;
 }
 
 .t1{
