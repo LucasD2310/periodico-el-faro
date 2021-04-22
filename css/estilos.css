@@ -269,7 +269,9 @@ span.f-time {
 
     #box{
         width: 30%;
-    }    
+        height: auto;
+        font-weight: 500;
+    }   
 
     nav li a{
         font-size: 20px;
