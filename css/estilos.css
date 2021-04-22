@@ -309,21 +309,17 @@ span.f-time {
     }
 
     .titulo{
-        width: 40%;
+        width: 45%;
         text-align: left;
         height: auto;
     }
 
     #box{
-        width: 60%;
+        width: 55%;
     }
 
     #box-time {
         font-size: 20px;
-    }
-
-    span.f-time {
-        display: none;
     }
 
     nav li a{
