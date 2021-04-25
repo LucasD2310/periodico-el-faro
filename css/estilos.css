@@ -244,6 +244,11 @@ form p{
     font-size: 18px;
     margin-left: 20px;
 }
+
+form{
+    margin: 0 auto;
+}
+
 .tipo-noticia{
     font-family: 'Antonio';
     font-size: 18px;

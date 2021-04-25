@@ -35,31 +35,33 @@
 
         <div class="subtitle"><h1>Formulario de Noticias</h1></div>
 
-        <form method="post">
-            <label for="title">Título</label><br>
-            <input class="contacto" type="text" id="title" name="title"><br><br>
-
-            <label for="categorie">Categoría</label><br>
-            <input class="contacto" type="text" id="categorie" name="categorie"><br><br>
-
-            <label for="article">Artículo</label><br>
-            <textarea class="contacto" id="article" name="article" rows="10"></textarea><br><br>
-
-            <p>Adjuntar Imagen<input type="file" name="archivoupload"/>
-            </p><br>
-
-            <p class="tipo-noticia">Seleccione Tipo de noticia: 
-                <select name="menu">
-                    <option>Deportes</option>
-                    <option>Negocios</option>
-                    <option>General</option>
-                </select>
-
-                <input type="submit" name="btn_submit" id="btn_submit" value="Enviar noticia" onclick="comprueba_extension(this.form, this.form.archivoupload.value)"><br><br>
-
-            </p>
-
-        </form>
+        <section class="main">
+            <form method="post">
+                <label for="title">Título</label><br>
+                <input class="contacto" type="text" id="title" name="title"><br><br>
+    
+                <label for="categorie">Categoría</label><br>
+                <input class="contacto" type="text" id="categorie" name="categorie"><br><br>
+    
+                <label for="article">Artículo</label><br>
+                <textarea class="contacto" id="article" name="article" rows="10"></textarea><br><br>
+    
+                <p>Adjuntar Imagen<input type="file" name="archivoupload"/>
+                </p><br>
+    
+                <p class="tipo-noticia">Seleccione Tipo de noticia: 
+                    <select name="menu">
+                        <option>Deportes</option>
+                        <option>Negocios</option>
+                        <option>General</option>
+                    </select>
+    
+                    <input type="submit" name="btn_submit" id="btn_submit" value="Enviar noticia" onclick="comprueba_extension(this.form, this.form.archivoupload.value)"><br><br>
+    
+                </p>
+    
+            </form>
+        </section>
 
         <footer>
             <h3>El Faro © 2021</h3>
