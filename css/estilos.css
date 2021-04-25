@@ -414,7 +414,11 @@ input{
     }
 
     button{
-        height: 20px;
+        height: 10px;
+    }
+
+    .contacto{
+        width: 90%;
     }
 
 }
