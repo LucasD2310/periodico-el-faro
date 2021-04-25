@@ -1,5 +1,5 @@
 function comprueba_extension(formulario, archivo) {
-    extensiones_permitidas = new Array(".gif", ".jpg");
+    extensiones_permitidas = new Array(".gif", ".jpg", ".png");
     mierror = "";
     if (!archivo) {
        //Si no tengo archivo, es que no se ha seleccionado un archivo en el formulario
@@ -20,7 +20,7 @@ function comprueba_extension(formulario, archivo) {
           mierror = "Comprueba la extensión de los archivos a subir. \nSólo se pueden subir archivos con extensiones: " + extensiones_permitidas.join();
         }else{
            //submito!
-          alert ("Todo correcto. Voy a submitir el formulario.");
+          alert ("Todo correcto. Se publicará el formulario.");
           formulario.submit();
           return 1;
         }

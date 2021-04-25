@@ -249,8 +249,22 @@ form p{
     font-size: 18px;
 }
 
-.categoria,.contacto{
+.categoria{
     resize: none;
+}
+
+label{
+    font-family: 'Antonio';
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.contacto{
+    resize: none;
+    font-family: 'Antonio';
+    font-size: 15px;
+    margin-left: 20px;
+    width: 800px;
 }
 
 input{
@@ -351,13 +365,13 @@ input{
     }
 
     .titulo{
-        width: 45%;
+        width: 55%;
         text-align: left;
         height: auto;
     }
 
     #box{
-        width: 55%;
+        width: 45%;
     }
 
     #box-time {
@@ -392,6 +406,10 @@ input{
     .subtitle{
         width: 100%;
         padding: 10px 0 10px 0;
+    }
+
+    button{
+        height: auto;
     }
 
 }

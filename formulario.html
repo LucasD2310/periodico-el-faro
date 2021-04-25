@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Periodico El Faro</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <meta name=viewport content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="grid">
@@ -18,7 +18,6 @@
             </div>
             <div id="box">
                 <div id="box-date">
-                    <p>Texto de prueba</p>
                 </div>
                 <div id="box-time"></div>
             </div>
@@ -30,19 +29,21 @@
                 <li><a href="deportes.html">Deportes</a></li>
                 <li><a href="negocios.html">Negocios</a></li>
             </ul>
+            <button onclick="location.href='formulario.html'">Formulario Noticias</button>
+            <button onclick="location.href='contacto.html'">Contáctanos</button>
         </nav>
 
         <div class="subtitle"><h1>Formulario de Noticias</h1></div>
 
         <form method="post">
-            <p>Título</p><br>
-            <textarea name="texto" maxlength="300" rows="4"></textarea><br><br>
+            <label for="title">Título</label><br>
+            <input class="contacto" type="text" id="title" name="title"><br><br>
 
-            <p>Categoria</p><br>
-            <textarea class="categoria" name="texto" maxlength="50" rows="1"></textarea><br><br>
+            <label for="categorie">Categoría</label><br>
+            <input class="contacto" type="text" id="categorie" name="categorie"><br><br>
 
-            <p>Desarrollo</p><br>
-            <textarea name="texto" maxlength="3000" rows="10"></textarea><br><br>
+            <label for="article">Artículo</label><br>
+            <textarea class="contacto" id="article" name="article" rows="10"></textarea><br><br>
 
             <p>Adjuntar Imagen<input type="file" name="archivoupload"/>
             </p><br>
