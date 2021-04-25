@@ -264,7 +264,7 @@ label{
     margin-left: 20px;
 }
 
-.contacto{
+.formulario{
     resize: none;
     font-family: 'Antonio';
     font-size: 15px;
@@ -413,9 +413,5 @@ input{
         padding: 10px 0 10px 0;
     }
 
-    button{
-        height: 10px;
-    }
-    
 }
 
