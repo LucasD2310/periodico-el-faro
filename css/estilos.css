@@ -414,7 +414,7 @@ input{
     }
 
     .formulario{
-        width: max-content;
+        width: fit-content;
     }
 
 }
