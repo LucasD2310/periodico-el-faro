@@ -345,11 +345,16 @@ input{
     textarea{
         width: 431px;        
     }
+
     footer{
         width: 100%;
         height: 80px;
         background-color:  #c9d2d0;
         padding: 0 0 5px 0;
+    }
+
+    .formulario{
+        width: 100%;
     }
 
 }
@@ -413,8 +418,13 @@ input{
         padding: 10px 0 10px 0;
     }
 
+    button{
+        height: 10px;
+    }
+
     .formulario{
         width: 90%;
+        margin: auto;
     }
 
 }
