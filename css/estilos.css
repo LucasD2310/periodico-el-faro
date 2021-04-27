@@ -13,7 +13,6 @@
 }
 
 .subtitle {
-    width: 100%;
     text-align: center;
     font-family: 'Playfair Display';
     font-size: x-large;
@@ -31,7 +30,11 @@
     display: block;
 }
 
+<<<<<<< HEAD
 .count {
+=======
+.count{
+>>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
     font-style: oblique;
     font-weight: bold;
     text-align: right;
@@ -39,10 +42,13 @@
     font-size: medium;
     padding: 30px 0 10px 20px;
 }
+<<<<<<< HEAD
 
 h5{
     margin: 0;
 }
+=======
+>>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
 /*
 .grid {
     width: 100%;
@@ -51,12 +57,20 @@ h5{
     background-color: #f5f5f5;
 }*/
 
+<<<<<<< HEAD
 #form_container {
     margin: 0 auto;
     display: flex;
 }
 
 
+=======
+#form_container{
+    margin:0 auto;
+    display: flex;
+}
+
+>>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
 .main {
 
     margin:0 auto;
@@ -85,6 +99,7 @@ header{
 }
 
 footer{
+    width: 100%;
     text-align: center;
     height: 80px;
     color: #31231e;
@@ -209,7 +224,7 @@ body{
 }
 
 #box-date {
-    margin: 15px 0;
+    margin: 15px 0 0 0;
     display: flex;
     height: 30px;
     padding: 0;
@@ -428,7 +443,11 @@ input{
         display: none;
     }
 
+<<<<<<< HEAD
     .btn-secondary {
+=======
+    .btn-secondary{
+>>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
         height: 10px;
     }
 }
