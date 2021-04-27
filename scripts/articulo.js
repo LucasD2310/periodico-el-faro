@@ -1,18 +1,36 @@
-//document.body.onload = addElement;
+/*document.body.onload = addElement;
 
 const titulo = document.getElementById('title');
 const categoria = document.getElementById('category');
-const articulo = document.getElementById('article');
+const articulo = document.getElementById('article');*/
 
-let container = document.createElement('article');
-container.style.cssText = 'width:30%;background-color:white;font-family:"Playfair Display";padding: 10px 20px 10px 20px;box-sizing:border-box;';
+function myFunction() {
+    document.body.onload = addElement;
 
-article_form.addEventListener("submit", e=> {   
-    alert(`titulo: ${titulo.value}\ncategoria: ${categoria.value}\narticulo: ${articulo.value}`)
-    container.append(`<div class="titulo-noticia">${value}=${titulo}</div>`);
-    container.append(`<div class="categoria-noticia">${value}=${categoria}</div>`);
-    container.append(`<div class="texto-noticia">${value}=${articulo}</div>`);
-})
+    const titulo = document.getElementById('title');
+    const categoria = document.getElementById('category');
+    const articulo = document.getElementById('article');
+
+    let container = document.createElement('ARTICLE');
+    container.style.cssText = 'width:30%;background-color:white;font-family:"Playfair Display";padding: 10px 20px 10px 20px;box-sizing:border-box;';
+    container.appendChild(`<div class="titulo-noticia">${titulo.value}</div>`);
+    container.appendChild(`<div class="categoria-noticia">${categoria.value}</div>`);
+    container.appendChild(`<div class="texto-noticia">${articulo.value}</div>`);
+
+    document.getElementsByClassName('main').appendChild(container);
+}
+
+/*article_form.addEventListener("submit", e=> {   
+    //alert(`titulo: ${titulo.value}\ncategoria: ${categoria.value}\narticulo: ${articulo.value}`)
+    let container = document.createElement('article');
+    container.style.cssText = 'width:30%;background-color:white;font-family:"Playfair Display";padding: 10px 20px 10px 20px;box-sizing:border-box;';
+
+    container.append(`<div class="titulo-noticia">${titulo.value}</div>`);
+    container.append(`<div class="categoria-noticia">${categoria.value}</div>`);
+    container.append(`<div class="texto-noticia">${articulo.value}</div>`);
+
+    document.getElementsByClassName('main').append(container);
+})*/
 
 
 /*form.addEventListener("submit", e=> {   
