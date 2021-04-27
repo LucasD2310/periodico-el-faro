@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.subtitle{
+.subtitle {
     width: 100%;
     text-align: center;
     font-family: 'Playfair Display';
@@ -17,18 +17,27 @@
     display: block;
 }
 
+.subtitle2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: medium;
+    padding: 30px 0 10px 20px;
+    background-color: #f5f5f5;
+    display: block;
+}
+/*
 .grid {
     width: 100%;
     max-width: 1800px;
     min-width: 300px;
     background-color: #f5f5f5;
-}
+}*/
 
 .main {
-    width: 90%;
+
     margin:0 auto;
     display: flex;
-    grid-gap: 30px;
     grid-auto-rows: minmax(300px, auto);
     background-color: #f5f5f5;
 }
@@ -54,13 +63,10 @@ header{
 
 footer{
     text-align: center;
-    width: 100%;
     height: 50px;
     color: #31231e;
-    background-color:  #c9d2d0;
+    background-color: #c9d2d0;
     font-family: 'Antonio';
-    padding: 0px 0 0 0;
-    margin-top: 10px;
 }
 
 .t1{
@@ -125,7 +131,7 @@ nav li a:hover{
 }
 
 .titulo-noticia{
-    font-style: bold;
+    font-style: normal;
     font-size: 20px;
     text-align: justify;
 }
@@ -282,10 +288,6 @@ input{
         width: 100%;
     }
 
-    .main{
-        display: grid;
-    }
-
     .titulo{
         width: 50%;
         text-align: left;
@@ -299,13 +301,6 @@ input{
 }
 
 @media screen and (max-width: 850px){
-    article{
-        width: 100%;
-    }
-
-    .main{
-        display: grid;
-    }
 
     .titulo{
         width: 70%;
@@ -346,18 +341,21 @@ input{
         width: auto;
     }
 
+    #articulo {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    #faro {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px){
-    article{
-        width: 90%;
-        margin: auto;
-    }
 
-    .main{
-        display: grid;
-    }
-
+        
     .titulo{
         width: 55%;
         text-align: left;
@@ -384,13 +382,6 @@ input{
         height: auto;
     }
 
-    footer{
-        width: 100%;
-        height: 80px;
-        background-color:  #c9d2d0;
-        padding: 0 0 5px 0;
-    }
-
     video{
         height: auto;
         width: 70%;
@@ -410,5 +401,8 @@ input{
         margin: auto;
     }
 
+    #faro {
+        display: none;
+    }
 }
 
