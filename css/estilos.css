@@ -432,11 +432,7 @@ input{
         display: none;
     }
 
-<<<<<<< HEAD
-    .btn-secondary {
-=======
     .btn-secondary{
->>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
         height: 10px;
     }
 }
