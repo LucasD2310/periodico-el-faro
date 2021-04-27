@@ -48,8 +48,7 @@ article:hover{
 
 header{
     width: 100%;
-    height: 100px;
-    padding: 0 30px 0 30px;
+    height: 170px;
     background-color:  #212F3C;
 }
 
@@ -64,44 +63,37 @@ footer{
     margin-top: 10px;
 }
 
-.logo{
-    width: 20%;
-    height: auto;
-    float: left;
-    margin: 0;
-}
-
-.titulo{
-    width: 60%;
-    height: 100px;
-    font-family: 'Antonio';
-    float: left;
-    margin: 0;
-}
-
 .t1{
     color: #fff;
     font-size: 55px;
     text-decoration: none;
     height: 72px;
+    padding: 0;
+    margin: 0;
 }
 
 .t2{
     color: #fff;
     font-size: 20px;
     height: 28px;
+    padding: 0;
+    margin: 0;
 }
 
 nav{
     width: 100%;
     height: 40px;
     display: flex;
-    background-color: #212F3C;  
 }
 
 img{
     width: 180px;
     margin: 0;
+}
+
+.menu-bar {
+	background-color: #393e42; 
+	margin-top: 20px;
 }
 
 nav ul{
@@ -205,6 +197,10 @@ body{
     display: block;
 }
 
+#articulo {
+    font-size: 15px;
+}
+
 span.hm-time, span.s-time {
     padding: 6px 5px;
     border-radius: 3px;
@@ -213,14 +209,16 @@ span.hm-time, span.s-time {
 span.hm-time {
     background: #24AADD;
     color: #FFF;
+    font-size: 15px;
 }
 
 span.s-time {
     background: #E5E5E5;
+    font-size: 15px;
 }
 
 span.f-time {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 select{
@@ -288,12 +286,6 @@ input{
         display: grid;
     }
 
-    .logo{
-        width: 30%;
-        height: auto;
-        float: left;
-    }
-
     .titulo{
         width: 50%;
         text-align: left;
@@ -303,6 +295,7 @@ input{
     #box{
         width: 20%;
     } 
+
 }
 
 @media screen and (max-width: 850px){
@@ -312,11 +305,6 @@ input{
 
     .main{
         display: grid;
-    }
-
-    .logo{
-        display: none;
-        /*width: 10%;*/
     }
 
     .titulo{
@@ -346,15 +334,16 @@ input{
         width: 431px;        
     }
 
-    footer{
-        width: 100%;
-        height: 80px;
-        background-color:  #c9d2d0;
-        padding: 0 0 5px 0;
-    }
-
     .formulario{
         width: 100%;
+    }
+
+    #cabecera{
+        width: auto;
+    }
+
+    #fecha{
+        width: auto;
     }
 
 }
@@ -369,11 +358,6 @@ input{
         display: grid;
     }
 
-    .logo{
-        display: none;
-        /*width: 8%;*/
-    }
-
     .titulo{
         width: 55%;
         text-align: left;
@@ -381,7 +365,7 @@ input{
     }
 
     #box{
-        width: 45%;
+        width: 35%;
     }
 
     #box-time {
@@ -423,7 +407,6 @@ input{
     }
 
     .formulario{
-        width: 90%;
         margin: auto;
     }
 
