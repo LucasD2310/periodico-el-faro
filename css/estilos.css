@@ -30,11 +30,7 @@
     display: block;
 }
 
-<<<<<<< HEAD
-.count {
-=======
 .count{
->>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
     font-style: oblique;
     font-weight: bold;
     text-align: right;
@@ -42,13 +38,10 @@
     font-size: medium;
     padding: 30px 0 10px 20px;
 }
-<<<<<<< HEAD
 
-h5{
+h4{
     margin: 0;
 }
-=======
->>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
 /*
 .grid {
     width: 100%;
@@ -57,20 +50,12 @@ h5{
     background-color: #f5f5f5;
 }*/
 
-<<<<<<< HEAD
 #form_container {
     margin: 0 auto;
     display: flex;
 }
 
 
-=======
-#form_container{
-    margin:0 auto;
-    display: flex;
-}
-
->>>>>>> 5bc3b9e782dc9fe28304f16d937197a0791a8e38
 .main {
 
     margin:0 auto;
@@ -336,6 +321,10 @@ input{
         width: 20%;
     } 
 
+    .formulario{
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 850px){
@@ -368,7 +357,7 @@ input{
     }
 
     .formulario{
-        width: 100%;
+        width: 90%;
     }
 
     #cabecera{
