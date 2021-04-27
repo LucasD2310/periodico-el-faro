@@ -42,6 +42,11 @@
     background-color: #f5f5f5;
 }*/
 
+#article_container{
+    margin:0 auto;
+    display: flex;
+}
+
 .main {
 
     margin:0 auto;
@@ -412,6 +417,10 @@ input{
 
     #faro {
         display: none;
+    }
+
+    .btn-secondary{
+        height: 10px;
     }
 }
 

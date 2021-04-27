@@ -36,7 +36,7 @@
 
                 </ul>
                 <!-- <button onclick="location.href='formulario.html'" class="btn btn btn-sm btn-secondary">Noticias</button> -->
-                <button onclick="location.href='contacto.html'" class="btn btn-sm btn-secondary">Contáctanos</button>
+                <!-- <button onclick="location.href='contacto.html'" class="btn btn-sm btn-secondary">Contáctanos</button> -->
             </nav>
         </div>
 
@@ -162,7 +162,7 @@
         </div>
 
         <div class="subtitle2"><h1>Agregar Artículo</h1></div>
-        <section class="main">
+        <section class="container" id="article_container">
             <form method="POST">
                 <label for="title">Título</label><br>
                 <input class="formulario" type="text" id="title" name="title" required><br><br>
@@ -183,9 +183,20 @@
             </form>
         </section>
 
-        <div class="container">
+        <div class="container-xl">
             <footer>
-                <h5>El Faro © 2021</h5>
+                <ul class="menu-list menu-inline">
+                    <h4>El Faro © 2021</h4>
+                </ul>
+            </footer>
+            <footer>
+                <ul class="menu-list menu-inline">
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="contacto.html">Contáctanos</a></li>
+                    <li class="list-inline-item">|</li>
+                    <li class="list-inline-item"><a href="#">Newsletter</a></li>
+                    <li class="list-inline-item">|</li>
+                </ul>
             </footer>
         </div>
 
