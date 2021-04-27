@@ -29,28 +29,27 @@
                 <li><a href="deportes.html">Deportes</a></li>
                 <li><a href="negocios.html">Negocios</a></li>
             </ul>
-            <button onclick="location.href='formulario.html'">Formulario Noticias</button>
             <button onclick="location.href='contacto.html'">Contáctanos</button>
         </nav>
 
         <div class="subtitle"><h1>Formulario de Contacto</h1></div>
 
         <section class="main">
-            <form method="post">
+            <form method="POST" id="contact_form">
                 <label for="name">Nombre</label><br>
-                <input class="formulario" type="text" id="name" name="user_name"><br><br>
+                <input class="formulario" type="text" id="name" name="user_name" required><br><br>
     
                 <label for="mail">Email</label><br>
-                <input class="formulario" type="email" id="mail" name="user_mail"><br><br>
+                <input class="formulario" type="email" id="mail" name="user_mail" required><br><br>
     
                 <label for="subject">Asunto</label><br>
-                <input class="formulario" type="text" id="subject" name="user_subject"><br><br>
+                <input class="formulario" type="text" id="subject" name="user_subject" required><br><br>
     
                 <label for="msg">Mensaje</label><br>
-                <textarea class="formulario" id="msg" name="user_msg" rows="10"></textarea><br><br>
+                <textarea class="formulario" id="msg" name="user_msg" rows="10" required></textarea><br><br>
     
                 <input type="submit" name="btn_submit" id="btn_submit" value="Enviar Mensaje"><br><br>
-    
+                <script src="scripts/contacto.js"></script>
             </form>
         </section>
         

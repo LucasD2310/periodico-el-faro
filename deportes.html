@@ -29,11 +29,16 @@
                 <li><a href="deportes.html">Deportes</a></li>
                 <li><a href="negocios.html">Negocios</a></li>
             </ul>
-            <button onclick="location.href='formulario.html'">Formulario Noticias</button>
             <button onclick="location.href='contacto.html'">Contáctanos</button>
         </nav>
         <div class="subtitle"><h1>Deportes</h1></div>
         <section class="main">
+            <article>
+                <div class="titulo-noticia" id="titulo-noticia"></div>
+                <div class="categoria-noticia" id="categoria-noticia"></div>
+                <div class="texto-noticia" id="texto-noticia"></div>
+            </article>
+            <script src="scripts/articulo.js" type="text/javascript"></script>
             <article>
                 <div class="titulo-noticia">Hurkacz domina a Sinner y gana su 
                     primer Masters 1000 en Miami</div>
@@ -151,6 +156,25 @@
                     reloj marcara la media hora de partido.
                 </div>
             </article>
+        </section>
+        <div class="subtitle2"><h1>Agregar Artículo</h1></div>
+        <section class="main">
+            <form method="post">
+                <label for="title">Título</label><br>
+                <input class="formulario" type="text" id="title" name="title" required><br><br>
+    
+                <label for="category">Categoría</label><br>
+                <input class="formulario" type="text" id="category" name="category" required><br><br>
+    
+                <label for="article">Artículo</label><br>
+                <textarea class="formulario" id="article" name="article" rows="10" required></textarea><br><br>
+    
+                <p>Adjuntar Imagen<input type="file" name="archivoupload"/>
+                </p><br>
+
+                <input type="submit" name="btn_submit" id="btn_submit" value="Enviar noticia" onclick="comprueba_extension(this.form, this.form.archivoupload.value)"><br><br>
+    
+            </form>
         </section>
         <footer>
             <h3>El Faro © 2021</h3>
