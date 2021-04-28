@@ -371,10 +371,7 @@ input{
     #articulo {
         font-size: 12px;
     }
-
-   .formulario{
-        width: 90%;
-    }  
+ 
 }
 
 @media screen and (max-width: 580px) {
@@ -382,9 +379,6 @@ input{
         display: none;
     }
 
-   .formulario{
-        width: 90%;
-    }  
 }
 
 @media screen and (max-width: 400px){
