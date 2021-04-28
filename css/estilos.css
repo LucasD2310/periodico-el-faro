@@ -325,8 +325,8 @@ input{
         width: 90%;
     }
 
-    .formulario{
-        width: 90%;
+    form {
+        width:90%;
     }
 
 }
