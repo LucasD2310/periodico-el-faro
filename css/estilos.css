@@ -321,13 +321,13 @@ input{
         width: 20%;
     } 
     
-    .formulario{
+ /*   .formulario{
         width: 90%;
     }
 
     form {
         width:80%;
-    }
+    }   */
 
 }
 
@@ -372,9 +372,9 @@ input{
         font-size: 12px;
     }
 
-    .formulario{
+ /*   .formulario{
         width: 90%;
-    }
+    }  */
 }
 
 @media screen and (max-width: 580px) {
@@ -382,9 +382,9 @@ input{
         display: none;
     }
 
-    .formulario{
+/*    .formulario{
         width: 90%;
-    }
+    }  */
 }
 
 @media screen and (max-width: 400px){
@@ -431,9 +431,9 @@ input{
         height: 10px;
     }
 
-    .formulario{
+ /*   .formulario{
         margin: auto;
-    }
+    }  */
 
     #faro {
         display: none;
