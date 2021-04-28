@@ -371,16 +371,20 @@ input{
     #articulo {
         font-size: 12px;
     }
-
+/*
     .formulario{
         width: 90%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 580px) {
     #faro {
         display: none;
     }
+
+ /*   .formulario{
+        width: 90%;
+    }*/
 }
 
 @media screen and (max-width: 400px){
@@ -424,12 +428,12 @@ input{
     }
 
     button{
-        height: 10px;
+        height: 15px;
     }
 
-    .formulario{
-        margin: auto;
-    }
+ /*   .formulario{
+        margin: 90%;
+    }*/
 
     #faro {
         display: none;
