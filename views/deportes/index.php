@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Periodico El Faro</title>
+    
+</head>
+<body>
+
+    <?php require 'views/header.php'; ?>
+
+    <div id="main">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Deportes</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-11" id="articulo"></div>
+        <div class="container">
+            <section class="main row">
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        Hurkacz domina a Sinner y gana su
+                        primer Masters 1000 en Miami
+                    </div>
+                    <div class="categoria-noticia">Tenis</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/tenis.jpg" class="image" />
+                        Hubert Hurkacz (37°) levanta el
+                        título más importante de su carrera en Miami. Llegó como
+                        un actor secundario y terminó ganando su primer Masters
+                        1000 tras vencer a un errático Sinner (31°) por 7-6(4)
+                        y 6-4. En un torneo atípico pero legendario, el polaco
+                        hace historia.
+                        <br>
+                        Los nervios le jugaron una mala pasada a Jannik Sinner,
+                        favorito de esta peculiar definición. El italiano, de
+                        19 años, copó las portadas de los medios internacionales
+                        con su deslumbrante paso por Florida, no por nada era
+                        el finalista más joven del certamen desde que Rafael
+                        Nadal perdiera el torneo en 2005.
+                        <br>Pero hoy ese juego
+                        sereno, preciso y punzante no apareció. Muy dubitativo
+                        con su servicio, el itálico siempre tuvo que remar
+                        de atrás y pese a que tuvo chances de darlo vuelta
+                        en el primer set, terminó jugando un juego para el
+                        olvido cuando estaba 6-5 arriba.
+                        <br>
+                        Hurkacz por su parte es campeón trabajando de manera
+                        silenciosa, sin la atención que rodeaba al que es uno
+                        de los jugadores jóvenes más interesantes del circuito,
+                        pero con la tenacidad y valía de sus grandes victorias
+                        en el Hard Rock Stadium. Le ganó a Rublev (8°), Tsitsipas
+                        (5°) y Shapovalov (11°), algunas de las caras más poderosas
+                        del quinto grande, por lo que la confianza del número 37
+                        del mundo estaba a tope.
+                    </div>
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        Quartararo gana la segunda carrera
+                        del Moto GP y Yamaha vuelve a liderar en Qatar
+                    </div>
+                    <div class="categoria-noticia">Moto GP</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/moto.jpg" class="image" />
+                        En una carrera intensa, apretada y
+                        exigente, Fabio Quartararo puso el nombre de Yamaha en lo
+                        más alto del circuito de Losail. El francés luchó por 19
+                        vueltas para tomar la cima, despertando del sueño al joven
+                        Jorge Martín quien estuvo a minutos de conseguir pole y
+                        victoria en su segunda aparición en la máxima categoría
+                        del motociclismo.
+                        <br>
+                        Una recuperación de Quartararo que demuestra una vez más
+                        porque es de los mejores pilotos del Moto GP. Consiguió
+                        su cuarto primer puesto en el profesionalismo y además
+                        reafirmó que en Catar manda Yamaha. Otra vez más los
+                        japoneses se van líderes.
+                        <br>
+                        De todas formas gran parte de los focos se van con el
+                        novato Jorge Martín. El chico de Pramac Racing, equipo
+                        satélite de Ducati, que terminó primero en los
+                        clasificatorios, lideró el Gran Premio de Doha con
+                        actitud y valentía, pero cuando ya pensaba en la
+                        bandera a cuadros, el francés le quitó la cima. El
+                        ritmo no le dio y terminó perdiendo una de las carreras
+                        más ajustadas de los últimos años. Pese a que no ganó,
+                        su actuación es histórica.
+                    </div>
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        La solidez de Bravo no le
+                        alcanza a un Betis que sufre para llevarse
+                        un punto en su visita al Elche
+                    </div>
+                    <div class="categoria-noticia">Fútbol</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/futbol.jpg" class="image" />
+                        La solidez de Claudio Bravo
+                        no le alcanzó al Real Betis frente al Elche. En un
+                        duelo válido por la jornada 29 de La Liga, la
+                        escuadra que dirige Manuel Pellegrini comenzó
+                        ganando en su visita frente al conjunto ilicitano,
+                        pero terminó igualando 1-1. El arquero chileno
+                        disputó todo el partido y fue clave para evitar
+                        la caída de los forasteros.
+                        <br>
+                        Al igual que en la victoria ante el Levante, el meta
+                        nacional fue el encargado de defender el arco
+                        verdiblanco. Y, cuando se le exigió, cumplió a
+                        cabalidad. Estuvo bien en los achiques y acortando
+                        centros, así como también en su juego con los pies
+                        y las atajadas. Cuando el primer lapso estaba por
+                        terminar, le sacó a Pepe Milla el gol que le pudo
+                        haber costado la derrota a los sevillanos.
+                        <br>
+                        Fue el cuadro forastero el que asumió el protagonismo
+                        en el inicio del cotejo. Buscó por todos lados, sin
+                        prestarle la pelota a su oponente, que, al menos en
+                        el arranque, fue claramente superado. El primer
+                        aviso del equipo de los chilenos llegó en los 9′,
+                        con un disparo de distancia de Guido Rodríguez.
+                        Hasta ese momento, eran los béticos los que hacían
+                        méritos para abrir la cuenta.
+                        <br>
+                        La insistencia visitante para inaugurar los festejos
+                        tuvo su premio. Borja Iglesias fue derribado en el
+                        área luego de un ataque construido y el juez del
+                        cotejo sancionó la pena máxima. Fue el mismo
+                        delantero quien se encargó de patear desde los 12
+                        pasos y, con un remate al ángulo, venció al portero
+                        Édgar Badía para adelantar a los suyos. El 0-1,
+                        sin embargo, despertó a los dueños de casa.
+                        <br>
+                        Más aún cuando Iglesias debió dejar el campo de
+                        juego por el golpe que recibió en la falta penal,
+                        dejando al elenco de Pellegrini sin su
+                        principal hombre de ataque antes de que el
+                        reloj marcara la media hora de partido.
+                    </div>
+                </article>
+            </section>
+        </div>
+
+    </div>
+    
+    <?php require 'views/footer.php'; ?>
+    
+</body>
+</html>

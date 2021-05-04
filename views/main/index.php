@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Periodico El Faro</title>
+
+</head>
+<body>
+
+    <?php require 'views/header.php'; ?>
+
+    <div id="main">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>General</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-11" id="articulo"></div>
+        <div class="container">
+            <section class="main row" id="new">
+                <article id="padre" class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        Senado aprueba en general paquete de ayuda
+                        económica para la clase media
+                    </div>
+                    <div class="categoria-noticia">Política</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/politica.jpg" class="image" />
+                        Este domingo en sesión especial el Senado aprobó
+                        en general con 32 votos a favor y 10 abstenciones el paquete de ayuda
+                        económica presentado por el gobierno, que incluye la entrega de un bono
+                        clase media, créditos blandos y mejoras al Ingreso Familiar de Emergencia,
+                        entre otras cosas.
+                        <br>
+                        De esta forma, el proyecto se acerca al fin de una ardua tramitación
+                        en la Cámara Alta, donde tras intensas tratativas entre el oficialismo
+                        y la oposición durante la semana, se logró un acuerdo respecto de las
+                        indicaciones.
+                        <br>
+                        En la votación del proyecto destacó la abstención en masa de los siete
+                        senadores del Partido Socialista, quiénes quisieron hacer un punto
+                        político al considerar que las mejoras realizadas en la Comisión
+                        de Hacienda no eran suficientes para ir en ayuda de la población.
+                        <br>
+                        En la votación en particular, se presentó una controversia por la
+                        solicitud de la senadora Ximena Rincón y del senador Carlos Bianchi
+                        (Ind) para votar en forma separada los incisos 2 y 3 del artículo
+                        8 del proyecto, los que establecen la incompatibilidad del bono
+                        clase media con el IFE entregado en enero y febrero.
+                        <br>
+                        En definitiva, la admisibilidad de la solicitud se aprobó con 22 votos a
+                        favor, 19 en contra y una abstención. Sin embargo, desde el Ejecutivo
+                        explicaron que de quitarse estos incisos y declararse la compatibilidad
+                        del bono con el IFE se generaría un mayor gasto fiscal.<br>
+                        <audio controls>
+                            <source src="views/audio/Bono-IFE.mp3" type="audio/mp3">
+                            <p>
+                                Your browser doesn't support HTML5 audio. Here is a <a href="https://www.youtube.com/watch?v=fqaysovzK_8">
+                                    link to
+                                    the audio
+                                </a> instead.
+                            </p>
+                        </audio>
+                    </div>
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        Tres carabineros fueron detenidos por fiesta
+                        clandestina en Providencia: institución abrió sumario
+                    </div>
+                    <div class="categoria-noticia">Policial</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/policial.jpg" class="image" />
+                        Pasado el mediodía, se informó de la detención
+                        de tres funcionarios de carabineros que según la información preliminar,
+                        participaban en una fiesta clandestina en un departamento de la comuna
+                        de Providencia.
+                        <br>
+                        La información fue ratificada por la institución en una vocería. “Se
+                        detuvo a cuatro personas que infligieron las medidas sanitarias dentro
+                        de las cuales había miembros de la institución”, señaló la Teniente
+                        Coronel Natalia Gutiérrez, de la Prefectura Oriente.
+                        <br>
+                        Según la oficial todo ocurrió “en el contexto de una denuncia
+                        desarrollada por personal municipal de Providencia”. Y que “la
+                        totalidad de detenidos adultos infringieron el artículo 381 del código
+                        penal, por lo cual pasan a segundo control de detención el día de hoy”.
+                        <br>
+                        Además, la seremi de Salud metropolitana instruyó la apertura de un
+                        sumario sanitario.
+                        <br>
+                        Respecto a la situación de los uniformados puestos bajo arresto,
+                        la oficial informó: “La Institución determinó de forma inmediata
+                        un sumario con la finalidad de esclarecer responsabilidades y
+                        sanciones”.
+                    </div>
+                </article>
+                <article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="titulo-noticia">
+                        El primer helicóptero que sobrevolará otro
+                        planeta ya está en suelo marciano
+                    </div>
+                    <div class="categoria-noticia">Ciencia</div>
+                    <div class="texto-noticia">
+                        <img src="views/img/ciencia.jpg" class="image" />
+                        El minihelicóptero de la Nasa Ingenuity,
+                        que llegó en febrero a Marte adherido a la parte de abajo del
+                        rover Perseverance, acaba de separarse del vehículo y está ya
+                        en la superficie del planeta rojo, anunció la agencia espacial
+                        estadounidense.
+                        <br>
+                        “¡Aterrizaje confirmado del Helicóptero de Marte!”, tuiteó el
+                        sábado por la noche el laboratorio de la Nasa a cargo de la misión.
+                        <br>
+                        Este helicóptero ultraligero, similar a un dron grande, llegó
+                        plegado y acoplado bajo el Perseverance, que aterrizó en Marte
+                        el 18 de febrero, donde permaneció hasta que el rover alcanzó
+                        el lugar donde debe producirse el vuelo.
+                        <br>
+                        “Su viaje de 471 millones de km llegó a su fin con este pequeño
+                        salto de 10 cm desde el vientre del rover hasta la superficie
+                        de Marte hoy. Próximo reto: sobrevivir a la noche”, tuiteó el
+                        laboratorio.
+                        <br>
+                        Una foto acompañando al tuit mostraba al Perseverance alejándose
+                        del helicóptero. Debe dejarle el horizonte totalmente despejado
+                        en menos de 25 horas, ya que el helicóptero precisa del sol
+                        para alimentar sus paneles solares con energía y poder
+                        sobrevivir calentándose durante las glaciales noches marcianas.
+                        <br>
+                        <video src="views/video/Helicoptero-Nasa.mp4" controls>
+                            <p>
+                                Tu navegador no soporta HTML5 video. Aquí está el <a href="https://www.youtube.com/watch?v=RneC6iLflWI&ab_channel=UnoTV">enlace del video</a>.
+                            </p>
+                        </video>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+<!--        <div class="subtitle2"><h1>Agregar Artículo</h1></div>
+        <section class="main" id="form_container">
+            <form action="<?php echo constant('URL'); ?>main/registrarNuevaNoticia" id="article_form" method="POST">
+                <label for="title">Título</label><br>
+                <input class="formulario" type="text" id="title" name="title" required><br><br>
+
+                <label for="category">Categoría</label><br>
+                <input class="formulario" type="text" id="category" name="category" required><br><br>
+
+                <label for="article">Artículo</label><br>
+                <textarea class="formulario" id="article" name="article" rows="10" cols="70" required></textarea><br><br>
+
+                <input type="submit" name="btn_submit" id="btn_submit" value="Enviar noticia"><br><br>
+                <!--<button onclick="myFunction()">Enviar Noticia</button> 
+                <!--<script src="views/scripts/news.js" type="text/javascript"></script>
+
+            </form>
+        </section> -->
+    </div>
+
+    <?php require 'views/footer.php'; ?>
+
+</body>
+</html>
