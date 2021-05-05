@@ -4,14 +4,18 @@ class Formulario extends Controller{
 
     function __construct(){
         parent::__construct();
+<<<<<<< HEAD
         $this->view->mensaje = "";
     }
 
     function render(){
+=======
+>>>>>>> 066b77fa4d939a1c9c9a7b4e1949cd75ba7cd86e
         $this->view->render('formulario/index');
     }
 
     function registrarNuevaNoticia(){
+<<<<<<< HEAD
         $titulo         = $_POST['title'];
         $categoria      = $_POST['category'];
         $noticia        = $_POST['article'];
@@ -33,6 +37,20 @@ class Formulario extends Controller{
         $this->render();
     }
 
+=======
+        $title          = $_POST['title'];
+        $category       = $_POST['category'];
+        $article        = $_POST['article'];
+        $archivoimagen  = $_POST['archivoimagen'];
+        $archivoaudio   = $_POST['archivoaudio'];
+        $archivovideo   = $_POST['archivovideo'];
+
+        echo $archivoimagen;
+
+        //$this->model->insertcontact(['nombre' => $nombre, 'email' => $email, 
+        //'asunto' => $asunto, 'msg' => $msg]);
+    }
+>>>>>>> 066b77fa4d939a1c9c9a7b4e1949cd75ba7cd86e
 }
 
 ?>

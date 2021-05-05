@@ -4,10 +4,13 @@ class Registro extends Controller{
 
     function __construct(){
         parent::__construct();
+<<<<<<< HEAD
         $this->view->mensaje = "";
     }
 
     function render(){
+=======
+>>>>>>> 066b77fa4d939a1c9c9a7b4e1949cd75ba7cd86e
         $this->view->render('registro/index');
     }
 
@@ -15,6 +18,7 @@ class Registro extends Controller{
         $nombre = $_POST['nombre'];
         $email  = $_POST['email'];
 
+<<<<<<< HEAD
         $mensaje = "";
 
         if($this->model->insertuser(['nombre' => $nombre, 'email' => $email])){
@@ -25,6 +29,11 @@ class Registro extends Controller{
 
         $this->view->mensaje = $mensaje;
         $this->render();
+=======
+        if($this->model->insertuser(['nombre' => $nombre, 'email' => $email])){
+            echo "Usuario Registrado Correctamente";
+        }   
+>>>>>>> 066b77fa4d939a1c9c9a7b4e1949cd75ba7cd86e
     }
 }
 
