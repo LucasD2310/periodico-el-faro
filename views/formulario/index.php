@@ -17,7 +17,11 @@
         <div class="m-0 row justify-content-center"><?php echo $this->mensaje; ?></div>
         
         <section class="main">
+<<<<<<< HEAD
             <form method="POST" action="<?php echo constant('URL')?>formulario/registrarNuevaNoticia" enctype="multipart/form-data">
+=======
+            <form method="POST" action="<?php echo constant('URL')?>formulario/registrarNuevaNoticia">
+>>>>>>> a3a58b7eb88a153cf804880767fc8e09371f9ccb
                 <label for="title">Título</label><br>
                 <input class="formulario" type="text" id="title" name="title" required><br><br>
 
